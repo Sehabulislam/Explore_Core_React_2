@@ -29,3 +29,17 @@
 //   const data = res.json();
 //   return data;
 // }
+
+/**
+ * Today's I will leard about React
+ * 1.event tigger
+ * 2. state 
+ * 3.useEffect 
+ * 4. conditional rendering 
+ * 5. components
+ * 6. props 
+ * 7. fetch data from api
+ * 8. suspense
+ * 9. loop through to display data 
+ * 10. why we use key prop 
+ */
