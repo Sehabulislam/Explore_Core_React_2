@@ -1,7 +1,13 @@
-export default function Users(){
+import { use } from "react"
+
+export default function Users({fetchUsers}){
+
+    const users = use(fetchUsers);
+    console.log(users)
+
     return (
         <div className="card">
-            <h4>Users : </h4>
+            <h4>Users : {users.length}</h4>
         </div>
     )
 }
